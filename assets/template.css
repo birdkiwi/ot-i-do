@@ -1,8 +1,19 @@
-@import "modules/registration.css";
+@import "blocks/registration.css";
+@import "blocks/blog.css";
+@import "blocks/exhibitions.css";
 
 body {
     font-family: 'PT Sans Narrow', Tahoma, sans-serif;
     font-size: 16px;
+}
+
+a {
+    color: #611508;
+}
+
+a:hover,
+a:focus {
+    color: #831c0a;
 }
 
 .main-header {
@@ -296,28 +307,6 @@ body {
     width: 100%;
     object-fit: cover;
     transition: all 200ms;
-}
-
-.blog-module {
-
-}
-
-.blog-module-title {
-    text-transform: uppercase;
-    color: rgba(51, 51, 51, 255);
-    font-weight: bold;
-    font-size: 18px;
-    font-family: 'Montserrat', Tahoma, sans-serif;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.blog-module-item {
-    margin-bottom: 20px;
-}
-
-.blog-module-item a {
-    color: rgba(61, 64, 69, 255);
 }
 
 .exhibitions-module-item {
