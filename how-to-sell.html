@@ -75,15 +75,15 @@
 </nav>
 
 <div class="uk-container uk-margin-top uk-margin-large-bottom">
-    <h1 class="uk-text-center">
-        Как продать
-    </h1>
+    <h2 class="uk-h1 uk-text-center">
+        Как продать художникам
+    </h2>
 
     <p class="uk-text-center">
         Для того чтобы стать продавцом — зарегистрируйтесь на сайте. Регистрация обязательна.
     </p>
 
-    <form action="#" method="post">
+    <form action="#" method="post" class="uk-margin-large-bottom">
         <div class="uk-container-xsmall uk-align-center">
             <div class="uk-grid-small" uk-grid>
                 <div class="uk-width-1-2">
@@ -102,53 +102,89 @@
                     </label>
                 </div>
                 <div class="uk-width-1-1">
-                    <button type="submit" class="button button-red">Начать регистрацию</button>
+                    <button type="submit" class="button button-red">
+                        Зарегистрироваться
+                    </button>
                 </div>
             </div>
         </div>
     </form>
 
-    <h2>
-        Продавайте произведения искусства без посредников
-    </h2>
-
-    <div class="registration-offer uk-margin-large-bottom">
-        <h3 class="registration-offer-title">
-            Как это работает?
+    <div class="uk-container-xsmall uk-align-center">
+        <h3>
+            Продавайте произведения искусства без посредников
         </h3>
-        <div class="registration-offer-item">
-            <div class="registration-offer-item-icon">
-                <img src="assets/images/icons/registration/icon-registration-1.svg" alt="">
+
+        <div class="registration-offer uk-margin-large-bottom">
+            <h4 class="registration-offer-title">
+                Как это работает?
+            </h4>
+            <div class="registration-offer-item">
+                <div class="registration-offer-item-icon">
+                    <img src="assets/images/icons/registration/icon-registration-1.svg" alt="">
+                </div>
+                <div class="registration-offer-item-text">
+                    Вы регистрируетесь на сайте и получаете логин и пароль для личного кабинета
+                </div>
             </div>
-            <div class="registration-offer-item-text">
-                Вы регистрируетесь на сайте и получаете логин и пароль для личного кабинета
+            <div class="registration-offer-item">
+                <div class="registration-offer-item-icon">
+                    <img src="assets/images/icons/registration/icon-registration-2.svg" alt="">
+                </div>
+                <div class="registration-offer-item-text">
+                    Заходите в личный кабинет и размещаете фото, описание и цену работ
+                </div>
             </div>
-        </div>
-        <div class="registration-offer-item">
-            <div class="registration-offer-item-icon">
-                <img src="assets/images/icons/registration/icon-registration-2.svg" alt="">
+            <div class="registration-offer-item">
+                <div class="registration-offer-item-icon">
+                    <img src="assets/images/icons/registration/icon-registration-3.svg" alt="">
+                </div>
+                <div class="registration-offer-item-text">
+                    Покупатели напрямую связываются с вами и покупают работы
+                </div>
             </div>
-            <div class="registration-offer-item-text">
-                Заходите в личный кабинет и размещаете фото, описание и цену работ
-            </div>
-        </div>
-        <div class="registration-offer-item">
-            <div class="registration-offer-item-icon">
-                <img src="assets/images/icons/registration/icon-registration-3.svg" alt="">
-            </div>
-            <div class="registration-offer-item-text">
-                Покупатели напрямую связываются с вами и покупают работы
-            </div>
-        </div>
-        <div class="registration-offer-item">
-            <div class="registration-offer-item-icon">
-                <img src="assets/images/icons/registration/icon-registration-4.svg" alt="">
-            </div>
-            <div class="registration-offer-item-text">
-                При желании вы можете заказать платные услуги поднятия своей страницы или работ в специальные заметные блоки, в списке или внутри разделов сайта
+            <div class="registration-offer-item">
+                <div class="registration-offer-item-icon">
+                    <img src="assets/images/icons/registration/icon-registration-4.svg" alt="">
+                </div>
+                <div class="registration-offer-item-text">
+                    При желании вы можете заказать платные услуги поднятия своей страницы или работ в специальные заметные блоки, в списке или внутри разделов сайта
+                </div>
             </div>
         </div>
     </div>
+
+    <h2 class="uk-h1 uk-text-center">
+        Как продать галереям
+    </h2>
+
+    <p class="uk-text-center">
+        Для того чтобы стать продавцом — зарегистрируйтесь на сайте. Регистрация обязательна.
+    </p>
+
+    <form action="#" method="post">
+        <div class="uk-container-xsmall uk-align-center">
+            <div class="uk-grid-small" uk-grid>
+                <div class="uk-width-1-1">
+                    <input type="text" name="surname" class="uk-input" placeholder="Название галереи" required>
+                </div>
+                <div class="uk-width-1-1">
+                    <input type="email" name="email" class="uk-input" placeholder="Электронная почта (логин)" required>
+                </div>
+                <div class="uk-width-1-1">
+                    <label>
+                        <input type="checkbox" name="agreement" class="uk-checkbox" required> &nbsp;
+                        Ознакомлен и согласен с условиями <a href="#">Публичной оферты</a>, <a href="#">Условиями использования</a>
+                    </label>
+                </div>
+                <div class="uk-width-1-1">
+                    <button type="submit" class="button button-red">
+                        Зарегистрироваться
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
 </div>
 
 <footer class="main-footer">
@@ -254,7 +290,7 @@
 
         <div class="main-footer-copyright uk-margin-medium-top">
             Использование без разрешения редакции сайта запрещено. <br>
-            Все материалы являются собственностью сайта и <a href="#" class="uk-link-text"><u>защищены авторскими правами</u></a>.
+            Все права защищены
         </div>
     </div>
 </footer>
